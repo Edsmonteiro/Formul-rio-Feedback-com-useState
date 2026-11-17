@@ -1,0 +1,3 @@
+import { MessageCircleHeart } from 'lucide-react';
+import FeedbackForm from './components/FeedbackForm.jsx';
+export default function App(){return <><header className="topbar"><div className="wrap top-inner"><div className="brand"><span className="brand-mark"><MessageCircleHeart size={22}/></span>voz<span>.</span></div><span className="tag">React + useState</span></div></header><main className="wrap"><div className="intro"><div className="eyebrow">SUA OPINIÃO TRANSFORMA</div><h1>Vamos construir algo melhor <em>juntos.</em></h1><p>Uma experiência simples, humana e interativa.</p></div><FeedbackForm/></main><footer className="footer"><div className="wrap"><span>Voz. — Sua opinião tem valor.</span><span>Atividade 03 · React useState</span></div></footer></>}
